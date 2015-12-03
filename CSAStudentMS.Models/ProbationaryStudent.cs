@@ -8,5 +8,7 @@ namespace CSAStudentMS.Models
 {
     public class ProbationaryStudent
     {
+        public ProbationaryStudent()
+        { }
     }
 }
