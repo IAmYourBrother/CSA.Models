@@ -15,7 +15,8 @@ namespace CSAStudentMS.Models
             this.name = name;
             this.program = program;
             this.yearlevel = yearlevel;
-        }     
+        }
+        public Student(int idnum) : base(idnum){ }
 
         public string Name
         {
